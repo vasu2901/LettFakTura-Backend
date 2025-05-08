@@ -128,4 +128,3 @@ This Server is currently deployed on Heroku at [Backend](lettfaktura-backend-8u3
 
 ---
 
-Would you like a section added for testing or deployment (e.g., Docker, CI/CD)?
