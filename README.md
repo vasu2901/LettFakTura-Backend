@@ -110,7 +110,6 @@
 
 ```
 ├── index.js              # Entry point
-├── db.js                 # Sequelize DB configuration
 ├── routes/
 │   ├── product.ts        # Product-related routes
 │   ├── welcome.js        # Welcome route
@@ -118,6 +117,7 @@
 ├── models/
 │   ├── Product.js        #Product Schema
 |   ├── Term.js           # Term Schema
+|   └── index.js          # Sequelize DB configuration
 └── .env                  # Environment variables (not committed)
 ```
 
