@@ -3,7 +3,9 @@ const Product = require('../models/Product');
 async function productRoutes(fastify, options) {
     // Get all products
     fastify.get('/products', async (request, reply) => {
-        const products = await Product.findAll();
+        const products = await Product.findAll({
+        order: [['id', 'ASC']]
+        });
         reply.send(products);
     });
 
